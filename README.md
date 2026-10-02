@@ -10,7 +10,7 @@ conda env create -f SQUAD_env.yml
 
 ## Usage
 Set the main project path in run_all.py, then run it to execute the full SQUAD pipeline.
-The multiview_alljoints.py code performs object triangulation and extracts 3D pose information for subsequent SQUAD processing.
+The multiview_alljoints.py code performs object triangulation and extracts 3D pose information from the SQUAD output.
 Data and pretrained models are not included. External dependencies and models retain their respective licenses.
 
 ## SQUAD folder structure
