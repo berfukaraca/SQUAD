@@ -13,6 +13,36 @@ Set the main project path in run_all.py, then run it to execute the full SQUAD p
 The multiview_alljoints.py code performs object triangulation and extracts 3D pose information for subsequent SQUAD processing.
 Data and pretrained models are not included. External dependencies and models retain their respective licenses.
 
+## SQUAD folder structure
+The project scripts remain in the SQUAD root directory.
+
+```text
+SQUAD/
+├── checkpoints/
+├── data/
+│   ├── alphapose_results/
+│   ├── annotations/
+│   │   ├── frames/
+│   │   └── participant1/
+│   │       ├── attention/
+│   │       └── touch/
+│   ├── assigned_ids/
+│   ├── camera_movement/
+│   ├── detection/
+│   ├── dmmr_output/
+│   ├── extracted_frames/
+│   ├── frame_offsets/
+│   ├── fullvideo/
+│   ├── input_videos/
+│   ├── inputs/
+│   ├── joints/
+│   └── pose_tracks/
+├── model_outputs/
+└── train33/
+    ├── args.yaml
+    └── weights/
+        └── best.pt
+```
 ## Citation
 If you use SQUAD in your research, please cite:
 
