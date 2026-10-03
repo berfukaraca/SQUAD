@@ -1,6 +1,5 @@
 # SQUAD
-SQUAD: A Unified Framework for 3D Dyadic Scene Understanding with Applications to Visual Focus of Attention and Object Use
-
+Code for the paper SQUAD: A Unified Framework for 3D Dyadic Scene Understanding with Applications to Visual Focus of Attention and Object Use (ICMI 2026).
 
 ## Setup
 1. Download AlphaPose from https://github.com/MVIG-SJTU/AlphaPose/tree/master and DMMR from https://github.com/boycehbz/DMMR. Follow their installation instructions and download the required models.
